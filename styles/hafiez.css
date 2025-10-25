@@ -1,0 +1,217 @@
+html{scroll-behavior: smooth;}
+body{
+
+    margin:0;
+    padding:0;
+} 
+
+.navbar {
+    background-color: #000000;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+.navbar h1{
+    color: aliceblue;
+    padding-left: 20px;
+
+}
+.test {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    background-position: center; 
+    z-index: 3;
+    
+}
+
+.button-1 button{
+    background-color:black;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    margin-top: 50px;
+    transition: .4s ease;
+    font-family:monospace;
+}
+.button-1 a button:hover{
+    background: #e8e8e8;  
+    
+}
+
+.img {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.about-me {
+    position: relative;
+    z-index: 5;
+    padding: 70px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+   
+}
+.polban-img {
+    width: 200px;
+    margin-right: 150px;
+    margin-top: 0px;
+}
+
+
+#content1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: 5;
+}
+.foto-diri {
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+}
+.content1 {
+    position: relative;
+    z-index: 5;
+    padding: 70px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.content2{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px;
+    margin-right: 150px;
+}
+.button-2 button{
+    background-color:black;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    transition: .4s ease;
+    font-family:monospace;
+    margin-left: 500px;
+    align-items: center;
+
+}
+.button-2 a button:hover{
+    background: #e8e8e8;  
+    
+}
+#content2{
+    margin: 150px 100px 100px 100px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    align-items: center;
+
+}
+.content2-1{
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+    align-content: center;
+    gap: 150px;
+     
+}
+
+
+.RP{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   z-index: 10;
+   padding: 10px 10px 10px 10px;
+   flex: 1;
+}
+.KDK {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   z-index: 10;
+   padding: 10px;
+   padding-bottom: 30px;
+   flex: 1;
+}
+.isi{
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+     position: relative;
+}
+.progres{
+
+}
+.progres {
+    height: 15px;
+    width: 100px;
+    border-radius: 10px;
+    animation: progres-animation 3s;
+}
+ @keyframes animation{
+    0% {width: 0%;}
+    10% {width: 50%;}
+    
+    
+}
+.java{
+    padding: 3px;
+    height: 10px;
+    width: 150px;
+    background: #e1dede;
+    border-radius: 10px;
+    animation: animation 2s ;
+    display: flex;
+}
+.html{
+    margin-top: 3px;
+    padding: 3px;
+    height: 10px;
+    width: 150px;
+    background: #e1dede;
+    border-radius: 10px;
+    animation: animation 2s ;
+}
+.css{
+    margin-top: 3px;
+    padding: 3px;
+    height: 10px;
+    width: 150px;
+    background: #e1dede;
+    border-radius: 10px;
+    animation: animation 2s;
+}
+.progres-java{
+    height: 10px;
+    width:50px;
+    background: #060606;
+    border-radius: 10px;
+    animation: animation 5s ;
+}
+.progres-html{
+    height: 10px;
+    width: 75px;
+    background: #060606;
+    border-radius: 10px;
+    animation: animation 5s ;
+}
+.progres-css{
+    height: 10px;
+    width: 90px;
+    background: #060606;
+    border-radius: 10px;
+    animation: animation 5s ;
+}
+.persentase-progres{
+    padding-left: 50px;
+}
