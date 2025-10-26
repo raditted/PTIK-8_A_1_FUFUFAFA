@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcf9; 
+    color: #333; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: transparent; 
+    position: absolute; 
+    width: 100%;
+    box-sizing: border-box; 
+    z-index: 10;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white; 
+    font-weight: 500;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.hero {
+    position: relative;
+    height: 60vh; 
+    background-image: url('../img/img_callista/cats.jpg'); 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.hero-content {
+    position: relative; 
+    z-index: 2;
+}
+
+.hello {
+    font-size: 8em; 
+    margin: 0;
+    line-height: 1;
+}
+
+.ntmy {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.education-container {
+    padding: 40px;
+}
+
+
+.description-with-image {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px; 
+    max-width: 1200px; 
+    margin: 60px auto; 
+    padding: 0 40px;
+    flex-wrap: wrap; 
+}
+
+.description-text-box {
+    flex: 1; 
+    background-color: #e4f0d5; 
+    color: #2a3d1b; 
+    padding: 40px;
+    border-radius: 20px;
+    text-align: left; 
+    min-width: 300px; 
+}
+.description-text-box p {
+    margin: 0; 
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+.description-image-container {
+    flex: 1; 
+    min-width: 300px; 
+    text-align: center; 
+}
+
+.desc-image {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .description-with-image {
+        flex-direction: column; 
+        gap: 30px;
+    }
+    
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.education-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* BLOK .education-image SUDAH DIHAPUS */
+
+.education-info {
+    padding: 20px; 
+    text-align: left; 
+}
+
+.education-info h3 {
+    font-size: 1.2em; 
+    margin: 0 0 5px 0;
+    color: #000; 
+}
+
+.education-info .education-detail {
+    font-size: 1em; 
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.education-info .education-years {
+    font-size: 0.9em; 
+    margin: 0;
+    color: #777; 
+}
+
+.education-card:hover {   
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
